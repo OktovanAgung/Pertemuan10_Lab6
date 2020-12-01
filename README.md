@@ -83,23 +83,23 @@ Jika sudah memasukan semua syntax diatas jangan di run terlebih dahulu nanti fil
 
 * Jika sudah dibuat masukan syntax dibawah ini kedalam file main.py :
 ```python
-from data import lab6
+from data import codelab6
 
 print("PROGRAM MENAMPILKAN DAFATR NILAI MAHASISWA")
 while True:
     print("")
     c =input("(L)lihat, (T)ambah, (U)bah, (H)apus, (K)eluar : ")
     if c.lower() == 't':
-        lab6.tambah()
+        codelab6.tambah()
 
     elif c.lower() == 'u':
-        lab6.ubah()
+        codelab6.ubah()
 
     elif c.lower() == 'l':
-        lab6.lihat()
+        codelab6.lihat()
 
     elif c.lower() == 'h':
-        lab6.hapus()
+        codelab6.hapus()
 
     elif c.lower() == 'k':
         print("Keluar")
@@ -109,12 +109,12 @@ while True:
 
 Nah disini di awal terdapat syntax ini :
 ```python
-from data import lab6
+from data import codelab6
 ```
 
 Fungsinya untuk menjalankan file *library root* nya yaitu dari folder (data) untuk membuka file (codelab6.py), itu penjelasan singkatnya. Kalau sudah, bisa langsung di run tetapi sebelum itu di save terlebihdahulu. Dan hasilnya akan seperti dibawah ini.
 
-![gambar6](Gambar)
+![gambar6](Gambar/output.png)
 
 Cukup sekian tugas dari saya, jika ada kesalahan mohon di maafkan.
 
